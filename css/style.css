@@ -1,0 +1,39 @@
+/* 样式重置 */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0}
+em{font-style:normal}
+li{list-style: none}
+a{text-decoration: none}
+img{border: none;vertical-align: top}
+table{border-collapse: collapse}
+input textarea{outline: none}
+textarea{resize: none;overflow: auto}
+body{font-size: 12px;font-family: "微软雅黑"}
+
+/* public */
+.fl{float:left}
+.fr{float:right}
+.clear{zoom:1}
+.clear:after{content:'';display:block;clear:both;}
+.gradient{
+    background:-webkit-linear-gradient(top,#ffffff,#F8F8F8);
+    background:-moz-linear-gradient(top,#ffffff,#f8f8f8);
+    background:-ms-linear-gradient(top,#ffffff,#f8f8f8);
+    background:linear-gradient(top,#ffffff,#f8f8f8);
+    filter:"progid:DXImageTransform.Microsoft.gradient(GradienType=0,startColorstr=#ffffff,endColorstr=#f8f8f8)";
+    background:#f9f9f9;
+}
+
+/* layout */
+#header{height: 30px;width: 960px;margin: 0 auto;border-radius: 0 0 6px 6px;background: yellow}
+#nav{width: 960px;height: 100px;margin: 0 auto;background: #fcc}
+#search{width: 958px;height:114px;border: 1px solid #dbdbdb;margin: 0 auto 10px;border-radius:6px}
+#search .bar{}
+.content{width: 960px;margin: 0 auto;}
+.main{width: 710px;}
+.section{border-radius:6px;border: 1px solid #dbdbdb;width: 318px;padding: 0 15px;height: 200px;margin-bottom:  10px;}
+.options{width: 350px;height: 200px;background: #FF9}
+.mian_ad{}
+.side{width: 240px;}
+.side_section{}
+.side_ad{}
+#footer{}

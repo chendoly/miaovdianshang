@@ -1,0 +1,26 @@
+布局
+header
+nav
+search
+
+main
+	section
+	options
+	main_ad
+	
+side
+	section_side
+
+footer
+
+
+公共样式：
+fl
+fr
+wrap
+clear
+
+CSS样式表管理
+样式重置
+
+结构模块：
