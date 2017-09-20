@@ -1,4 +1,4 @@
-布局
+布局样式
 header
 nav
 search
@@ -17,8 +17,8 @@ footer
 公共样式：
 fl
 fr
-wrap
-clear
+wrap 包裹层
+clear 清浮动
 
 CSS样式表管理
 样式重置

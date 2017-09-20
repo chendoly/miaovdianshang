@@ -1,20 +1,20 @@
 /* 样式重置 */
 body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0}
-em{font-style:normal}
-li{list-style: none}
-a{text-decoration: none}
+em{font-style:normal} /*倾斜字体扶正*/
+li{list-style: none} /*去掉点*/
+a{text-decoration: none} /*去掉下划线*/
 img{border: none;vertical-align: top}
 table{border-collapse: collapse}
 input textarea{outline: none}
 textarea{resize: none;overflow: auto}
 body{font-size: 12px;font-family: "微软雅黑"}
 
-/* public */
+/* public 公共样式*/
 .fl{float:left}
 .fr{float:right}
 .clear{zoom:1}
 .clear:after{content:'';display:block;clear:both;}
-.gradient{
+.gradient{ /*渐变*/
     background:-webkit-linear-gradient(top,#ffffff,#F8F8F8);
     background:-moz-linear-gradient(top,#ffffff,#f8f8f8);
     background:-ms-linear-gradient(top,#ffffff,#f8f8f8);
@@ -24,16 +24,19 @@ body{font-size: 12px;font-family: "微软雅黑"}
 }
 
 /* layout */
-#header{height: 30px;width: 960px;margin: 0 auto;border-radius: 0 0 6px 6px;background: yellow}
-#nav{width: 960px;height: 100px;margin: 0 auto;background: #fcc}
-#search{width: 958px;height:114px;border: 1px solid #dbdbdb;margin: 0 auto 10px;border-radius:6px}
-#search .bar{}
-.content{width: 960px;margin: 0 auto;}
+#header,#nav,.content{width:960px;margin:0 auto}
+#search,.section{border: 1px solid #dbdbdb;border-radius:6px}
+
+body{margin-bottom: 30px;}
+#header{height: 30px;border-radius: 0 0 6px 6px;}
+#nav{height: 100px;background: #fcc}
+#search{width: 958px;height:114px;margin: 0 auto 10px;}
 .main{width: 710px;}
-.section{border-radius:6px;border: 1px solid #dbdbdb;width: 318px;padding: 0 15px;height: 200px;margin-bottom:  10px;}
-.options{width: 350px;height: 200px;background: #FF9}
-.mian_ad{}
+.section{width: 318px;padding: 0 15px;height:200px;margin-bottom:  10px;}
+.options{width:350px;height: 200px;background: #FF9;margin-bottom: 10px}
+.main_ad{margin-bottom: 10px;border-radius: 6px;overflow: hidden}
 .side{width: 240px;}
-.side_section{}
-.side_ad{}
-#footer{}
+.side_section{border-radius:6px;border: 1px solid #dbdbdb;height: 60px;margin-bottom: 10px;}
+.side_ad{border-radius:6px;overflow: hidden;margin-bottom: 10px;border: 1px solid #dbdbdb;}
+.ad_border{width: 238px;height: 88px;border: 1px solid #dbdbdb;border-radius:6px;overflow: hidden;margin-bottom: 10px;}
+#footer{width: 958px;height: 78px;border: 1px solid #dbdbdb;border-radius:6px;background: #f9f9f9;margin: 0 auto;}
