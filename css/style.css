@@ -48,3 +48,11 @@ body {margin-bottom: 30px;}
 .options .nav .active{width: 172px;height: 34px;background: #fff;}
 .options .con{width: 348px;height: 80px;border: 1px solid #dbdbdb;border-radius: 0 0 6px 6px;position: absolute;top:34px;left: 0;z-index: 1;}
 
+#header .city{float: left;padding:5px 0 0 20px;}
+#header .city a{display:inline-block;padding:0 7px;height:18px;line-height: 18px;border: 1px solid #e5e5e5;border-radius:4px; box-shadow: 1px 1px 0 #ededed;background: #fff; color: #999999;}
+#header .city .active{color: #d60d03}
+#header .city a:hover{background: #f1f1f1;}
+#header .link{float: right;line-height: 30px;padding-right: 20px;}
+#header .link a{}
+#header .link a:hover{}
+
