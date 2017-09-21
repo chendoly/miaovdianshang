@@ -30,7 +30,7 @@ body{font-size: 12px;font-family: "微软雅黑"}
 
 body {margin-bottom: 30px;}
 #header {height: 30px;border-radius: 0 0 6px 6px;}
-#nav {height: 100px;background: #fcc}
+#nav {height: 100px;position: relative;}
 #search {width: 958px;height:114px;margin: 0 auto 10px;}
 .main {width: 710px;}
 .main_warp{padding-bottom: 10px;}
@@ -50,9 +50,16 @@ body {margin-bottom: 30px;}
 
 #header .city{float: left;padding:5px 0 0 20px;}
 #header .city a{display:inline-block;padding:0 7px;height:18px;line-height: 18px;border: 1px solid #e5e5e5;border-radius:4px; box-shadow: 1px 1px 0 #ededed;background: #fff; color: #999999;}
-#header .city .active{color: #d60d03}
+#header .city .active,#header .city .active:hover{color: #d60d03;background: #fff;}
 #header .city a:hover{background: #f1f1f1;}
-#header .link{float: right;line-height: 30px;padding-right: 20px;}
-#header .link a{}
-#header .link a:hover{}
+#header .link{float: right;line-height: 30px;padding-right: 20px;color: #d5d5d5;word-spacing: 4px;}
+#header .link a{color:#666666; background: url(../img/header_link_bg.gif)no-repeat 0 3px; padding-left: 20px;}
+#header .link a:hover{text-decoration: underline;}
+#header .link .ico1{background-position: 0 3px;}
+#header .link .ico2{background-position: 0 -27px}
 
+#nav ul{position: absolute;top: 10px;}
+#nav li{width: 66px;float: left;}
+#nav .nav_1{left: 11px;}
+#nav .nav_2{right: 11px;}
+#nav h1{width: 223px;height: 62px;margin:0 auto;position: relative;top: 10px;}
